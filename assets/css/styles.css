@@ -94,6 +94,7 @@ html {
 #nate-image {
   /* Positioning */
   float: left;
+  border-radius: 50%;
 
   /* Box-model */
   width: 200px;

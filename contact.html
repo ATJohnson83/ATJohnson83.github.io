@@ -50,22 +50,24 @@
       <div class="container">
         <section class="row">
           <div class="col-md-9">
-            <form class="contact-form">
+            <form action="mailto:ATJohnson83@Gmail.com" method="post" enctype="text/plain" class="contact-form">
               <h1 class="contact-form-header">Contact</h1>
               <hr class="contact-hr"/>
               <div class="form-group">
                 <label class="label-name" for="name">Name</label>
-                <input type="text" id="name_input" name="user_name" />
+                <input type="text" id="name_input" name="Name" />
               </div>
               <div class="form-group">
                 <label class="label-mail" for="mail">E-mail</label>
-                <input type="email" id="mail_input" name="user_mail" />
+                <input type="email" id="mail_input" name="Email" />
               </div>
               <div class="form-group">
                 <label class="label-msg" for="msg">Message</label><br />
-                <textarea id="msg" name="user_message_input" cols=600></textarea>
+                <textarea id="msg" name="Message" cols=600></textarea>
               </div>
-              <button class="submit-btn">Submit</button>
+              <!-- <button class="submit-btn">Submit</button> -->
+              <input type="submit" value="Send">
+              <input type="reset" value="Reset">
             </form>
           </div>
           <div class="col-md-3">
@@ -76,9 +78,9 @@
                 <h1 class="connect-with-me-header text-center">Connect</h1>
                 <hr />
                 <div id="images">
-                  <img src="assets/imgs/github.png" alt="" class="connect-with-me-photo">
-                  <img src="assets/imgs/linkedin.png" alt="" class="connect-with-me-photo">
-                  <img src="assets/imgs/stackover2.png" alt="" class="connect-with-me-photo">
+                  <a target="_blank" href="https://github.com/ATJohnson83"><img src="assets/imgs/github.png" alt="" class="connect-with-me-photo"></a>
+                  <a target="_blank" href="https://www.linkedin.com/in/austin-johnson-a973212a/"><img src="assets/imgs/linkedin.png" alt="" class="connect-with-me-photo"></a>
+                  <a target="_blank" href="https://stackoverflow.com/users/8107530/austintjohnson?tab=profile"><img src="assets/imgs/stackover2.png" alt="" class="connect-with-me-photo"></a>
                 </div>
               </div>
             </section>
@@ -94,7 +96,7 @@
     <footer class="footer">
       <div class="two-toned-footer-color"></div>
       <p class="text-muted text-muted-footer text-center">
-        &copy; Copyright 2017 Your Name
+        &copy; Copyright 2017 Austin T. Johnson
       </p>
     </footer>
     <!-- End of footer -->
